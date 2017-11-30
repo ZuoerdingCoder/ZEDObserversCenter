@@ -304,10 +304,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ZEDObserversCenter_Example/Pods-ZEDObserversCenter_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/PLObservers/PLObservers.framework",
 				"${BUILT_PRODUCTS_DIR}/ZEDObserversCenter/ZEDObserversCenter.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PLObservers.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZEDObserversCenter.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

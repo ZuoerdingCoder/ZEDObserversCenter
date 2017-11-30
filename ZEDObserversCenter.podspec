@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZEDObserversCenter'
-  s.version          = '0.1.0'
-  s.summary          = 'ZEDObserversCenter.'
+  s.version          = '0.0.1'
+  s.summary          = '一个非常容易使用的多观察者模式的观察者中心，是一个很好的NSNotificationCenter的替代品'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -39,5 +39,5 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'PLObservers'
 end

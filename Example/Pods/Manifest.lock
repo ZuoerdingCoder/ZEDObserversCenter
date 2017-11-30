@@ -1,0 +1,19 @@
+PODS:
+  - PLObservers (1.0.0)
+  - ZEDObserversCenter (0.0.1):
+    - PLObservers
+
+DEPENDENCIES:
+  - ZEDObserversCenter (from `../`)
+
+EXTERNAL SOURCES:
+  ZEDObserversCenter:
+    :path: ../
+
+SPEC CHECKSUMS:
+  PLObservers: b64f902e1efc61bd1fa270d88229cdfff1a1dbe6
+  ZEDObserversCenter: 610dc9044bcd4983a11511e0109d73239c6fcfcc
+
+PODFILE CHECKSUM: 8ee885208027542785bb2a98ac8a446e8cb4c916
+
+COCOAPODS: 1.3.1

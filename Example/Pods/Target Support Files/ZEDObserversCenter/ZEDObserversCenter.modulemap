@@ -1,0 +1,6 @@
+framework module ZEDObserversCenter {
+  umbrella header "ZEDObserversCenter-umbrella.h"
+
+  export *
+  module * { export * }
+}

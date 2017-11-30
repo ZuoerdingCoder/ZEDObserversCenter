@@ -1,0 +1,6 @@
+framework module PLObservers {
+  umbrella header "PLObservers-umbrella.h"
+
+  export *
+  module * { export * }
+}

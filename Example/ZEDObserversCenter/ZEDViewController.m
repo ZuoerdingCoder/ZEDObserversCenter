@@ -7,6 +7,8 @@
 //
 
 #import "ZEDViewController.h"
+#import <ZEDObserversCenter/ZEDObserversCenter.h>
+#import <ZEDObserversCenter/ZEDManagerCenter.h>
 
 @interface ZEDViewController ()
 

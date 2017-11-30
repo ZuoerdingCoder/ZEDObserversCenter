@@ -20,6 +20,20 @@ it, simply add the following line to your Podfile:
 pod "ZEDObserversCenter"
 ```
 
+### Usage
+
+```
+1. without key
+ADD_OBSERVER(protocol, observer)
+REMOVE_OBSERVER(protocol, observer)
+NOTIFY_OBSERVERS(protocol, func)
+
+2. with a key
+ADD_OBSERVER_WITH_KEY(protocol, key, observer)
+REMOVE_OBSERVER_WITH_KEY(protocol, key, observer)
+NOTIFY_OBSERVERS_WITH_KEY(protocol, key, func)
+```
+
 ## Author
 
 李超, 964139523@qq.com

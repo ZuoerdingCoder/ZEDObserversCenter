@@ -1,0 +1,6 @@
+framework module Pods_ZEDObserversCenter_Example {
+  umbrella header "Pods-ZEDObserversCenter_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
