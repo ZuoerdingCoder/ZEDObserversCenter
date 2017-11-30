@@ -7,8 +7,7 @@
 //
 
 #import "ZEDViewController.h"
-#import <ZEDObserversCenter/ZEDObserversCenter.h>
-#import <ZEDObserversCenter/ZEDManagerCenter.h>
+#import "ZEDSingletonExample.h"
 
 @interface ZEDViewController ()
 
@@ -20,6 +19,10 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    NSLog(@"%p:%p", GET_MANAGER(ZEDSingletonExample), GET_MANAGER(ZEDSingletonExample));
+    
+    
 }
 
 - (void)didReceiveMemoryWarning

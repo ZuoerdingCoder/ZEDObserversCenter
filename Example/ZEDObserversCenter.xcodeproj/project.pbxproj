@@ -24,6 +24,7 @@
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		B15C5CDEA6CA7AA21042A36B /* Pods_ZEDObserversCenter_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AAAAC22D6D2740BB1FD08F5 /* Pods_ZEDObserversCenter_Example.framework */; };
 		D4080E476C274F03DDC7A21B /* Pods_ZEDObserversCenter_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B821508CA6279A04E22E75AA /* Pods_ZEDObserversCenter_Tests.framework */; };
+		E76EAD4A1FD00E6500983149 /* ZEDSingletonExample.m in Sources */ = {isa = PBXBuildFile; fileRef = E76EAD491FD00E6500983149 /* ZEDSingletonExample.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,9 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		280BEA7FCB29C88B86FA4941 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		48B7E01E619D6C7872B60551 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		4BE5A1137E7FF2F864FBE3F2 /* ZEDObserversCenter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZEDObserversCenter.podspec; path = ../ZEDObserversCenter.podspec; sourceTree = "<group>"; };
+		280BEA7FCB29C88B86FA4941 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		48B7E01E619D6C7872B60551 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4BE5A1137E7FF2F864FBE3F2 /* ZEDObserversCenter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZEDObserversCenter.podspec; path = ../ZEDObserversCenter.podspec; sourceTree = "<group>"; };
 		5AAAAC22D6D2740BB1FD08F5 /* Pods_ZEDObserversCenter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZEDObserversCenter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* ZEDObserversCenter_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZEDObserversCenter_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -67,6 +68,8 @@
 		C7C2E0D545440114158F413C /* Pods-ZEDObserversCenter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZEDObserversCenter_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZEDObserversCenter_Example/Pods-ZEDObserversCenter_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		CA70DB0B1766A3B277F6C39E /* Pods-ZEDObserversCenter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZEDObserversCenter_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZEDObserversCenter_Tests/Pods-ZEDObserversCenter_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D5F828C838F4BC0030B8BCAB /* Pods-ZEDObserversCenter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZEDObserversCenter_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZEDObserversCenter_Tests/Pods-ZEDObserversCenter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E76EAD481FD00E6500983149 /* ZEDSingletonExample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZEDSingletonExample.h; sourceTree = "<group>"; };
+		E76EAD491FD00E6500983149 /* ZEDSingletonExample.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZEDSingletonExample.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +151,8 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* ZEDViewController.h */,
 				6003F5A6195388D20070C39A /* ZEDViewController.m */,
+				E76EAD481FD00E6500983149 /* ZEDSingletonExample.h */,
+				E76EAD491FD00E6500983149 /* ZEDSingletonExample.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -250,6 +255,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "李超";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						ProvisioningStyle = Manual;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -407,6 +415,7 @@
 			files = (
 				6003F59E195388D20070C39A /* ZEDAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* ZEDViewController.m in Sources */,
+				E76EAD4A1FD00E6500983149 /* ZEDSingletonExample.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -535,12 +544,15 @@
 			baseConfigurationReference = C7C2E0D545440114158F413C /* Pods-ZEDObserversCenter_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZEDObserversCenter/ZEDObserversCenter-Prefix.pch";
 				INFOPLIST_FILE = "ZEDObserversCenter/ZEDObserversCenter-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -550,12 +562,15 @@
 			baseConfigurationReference = 787A5F8A441E1F273DDA5DE2 /* Pods-ZEDObserversCenter_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZEDObserversCenter/ZEDObserversCenter-Prefix.pch";
 				INFOPLIST_FILE = "ZEDObserversCenter/ZEDObserversCenter-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
