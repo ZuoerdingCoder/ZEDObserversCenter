@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZEDObserversCenter'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = '一个非常容易使用的多观察者模式的观察者中心，是一个很好的NSNotificationCenter的替代品'
 
 # This description is used to generate tags and improve search results.
