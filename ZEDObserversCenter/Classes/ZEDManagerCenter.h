@@ -8,13 +8,13 @@
 #import <Foundation/Foundation.h>
 
 @protocol ZEDManagerProtocol <NSObject>
+
+@optional
 /**
  如果为YES,这个Manager将不会在用户登录之后被销毁,反之则会被销毁,默认值为NO
  */
 @property (nonatomic, assign) BOOL isKeepLiveAlways;
 
-@optional
-// 提供给子类去实现的方法
 - (void)onManagerInit;
 - (void)onManagerDidEnterBackground;
 - (void)onManagerWillEnterForeground;

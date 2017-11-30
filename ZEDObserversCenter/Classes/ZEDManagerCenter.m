@@ -52,7 +52,10 @@
     }
     
     mgr = [[class alloc] init];
-    [mgr onManagerInit];
+    
+    if ([mgr respondsToSelector:@selector(onManagerInit)]) {
+        [mgr onManagerInit];
+    }
     
     _dicMrgs[key] = mgr;
     [_lock unlock];
